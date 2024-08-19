@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f3cb9c30def26d4bb39feae89a4a374, type: 3}
+  m_Name: TetrisLevelData 1
+  m_EditorClassIdentifier: 
+  shapeFilePaths:
+  - Assets/Sprites/02/I.txt
+  - Assets/Sprites/02/L.txt
+  - Assets/Sprites/02/J.txt
+  - Assets/Sprites/02/O.txt
+  - Assets/Sprites/02/S.txt
+  - Assets/Sprites/02/Z.txt
+  - Assets/Sprites/02/T.txt
+  shapeChances:
+  - 14
+  - 14
+  - 14
+  - 14
+  - 14
+  - 14
+  - 14
+  winningScore: 3
+  speedMin: 1
+  speedStep: 0.01
+  speedMax: 0.5

@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5826808526200127207
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5826808526200127202}
+  - component: {fileID: 5826808526200127205}
+  m_Layer: 0
+  m_Name: GameObject (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5826808526200127202
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5826808526200127207}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1, y: 10.53, z: 173.5433}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5826808526200127205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5826808526200127207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad51dec38902a8749a7864b051759380, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelData: {fileID: 11400000, guid: 640f0661b967c5d449e95990891c89f4, type: 2}
+  shapeLoader: {fileID: 0}
+  nextShapes:
+  - {fileID: 2306103977492946769, guid: 35c527318a1692447a1ea33b2f7675a6, type: 3}
+  - {fileID: 5181113544014204281, guid: ce5d04fed40444347be7777e8e028d4d, type: 3}
+  - {fileID: 3371102020116229256, guid: 5b8275a46de6f914c913d2878c429632, type: 3}
+  - {fileID: 2525249931518454988, guid: 8138d9041dc592845a1f7800ddc9d8c8, type: 3}
+  - {fileID: 5106086145890749797, guid: 245663821b862154c9bd39dcd1159af5, type: 3}
+  - {fileID: 3703364776209475037, guid: 1a03ffaee797fb949b2a3e63eca8cbbe, type: 3}
+  - {fileID: 3594487072755548522, guid: bf3f2147289f03945bd4e10b05f69484, type: 3}
